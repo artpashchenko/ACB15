@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c79a07-a5aa-4f57-bf89-673f6d88bc1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week222/MyArrayList/MyArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week222/MyArrayList/TestMyArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week222/day1/Coder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week222/day1/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week222/day1/Junior.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week222/day1/Manager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week222/day1/Middle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week222/day1/QA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week222/day1/TestCompany.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week222/day2/overloading/Arena.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week222/day2/overloading/Fighter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week222/day2/overloading/Subzero.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/utils/MyDate.java" afterPath="$PROJECT_DIR$/src/utils/MyDate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/week111/Home1/TestMyString.java" afterPath="$PROJECT_DIR$/src/week111/Home1/TestMyString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/week111/day2/Student/Group.java" afterPath="$PROJECT_DIR$/src/week111/day2/Student/Group.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/week111/day2/Student/Student.java" afterPath="$PROJECT_DIR$/src/week111/day2/Student/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/week111/day2/Student/StudentTest.java" afterPath="$PROJECT_DIR$/src/week111/day2/Student/StudentTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/week111/day2/Student/TDD.java" afterPath="$PROJECT_DIR$/src/week111/day2/Student/TDD.java" />
     </list>
     <ignored path="ACB15.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -171,6 +152,7 @@
     <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
     <option name="UPDATE_CHANGES_POLICY" value="STASH" />
     <option name="LINE_SEPARATORS_CONVERSION" value="ASK" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -649,7 +631,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -708,7 +690,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyArrayList" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -721,6 +703,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="MyArrayList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
