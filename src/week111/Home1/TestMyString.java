@@ -17,11 +17,11 @@ public class TestMyString {
    MyString s3 = new MyString(ss); */
 
 
-        System.out.println(str);
-        System.out.println(s2);
+        /*System.out.println(str);
+        System.out.println(s2);*/
         /*System.out.println(s3);*/
-        String qq = new String("ee2112eeer");
-        MyString qw = new MyString(" woo oo ro ee  t ");
+        String qq = new String();
+       /* MyString qw = new MyString(" woo oo ro ee  t ");
         MyString we = new MyString("ee2112eeer");
         MyString er = new MyString("ee2112eeer");
         System.out.println(qw.contains(qq));
@@ -31,7 +31,7 @@ public class TestMyString {
 
         System.out.println(qw.subMyString(1, 10));
         System.out.println(qw.trim());
-        System.out.println(er.equals(we));
-
+        System.out.println(er.equals(we));*/
+        System.out.println(qq);
     }
 }

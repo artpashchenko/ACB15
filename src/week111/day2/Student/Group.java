@@ -9,49 +9,47 @@ package week111.day2.Student;
  */
 public class Group {
     private static final int GROUP_SIZE = 20;
-    private int studentsCounter;
+    private int counter;
     private String name;
     private Student[] students;
 
     public Group(String name) {
         this.name = name;
         this.students = new Student[GROUP_SIZE];
-        
     }
 
     public Group(String name, int groupSize) {
         this.name = name;
         this.students = new Student[groupSize];
-
     }
 
     public Group(String name, Student[] students) {
-        this.students = students;
         this.name = name;
+        this.students = students;
     }
 
     public boolean addStudent(Student student){
-     if(student == null) return false;
-        if (studentsCounter >=students.length) return false;
-//      todo check if already present in group
-        students[studentsCounter] = student;
-        studentsCounter++;
+        if(student == null) return false;
+        if(counter >= students.length) return false;
+
+//               todo check if already present in group
+
+        students[counter] = student;
+        counter++;
         return true;
-        
     }
-    
-    public  void showGroup(){
-       for(int i = 0; i < studentsCounter; i++){
-           System.out.println(students[i].asString());
+
+    public void showGroup(){
+        for (int i = 0; i < counter; i++) {
+            System.out.println(students[i].toString());
         }
     }
-    
 
     public Student search(String name){
         return null;
     }
 
-    public  boolean delStudent(Student student){
+    public boolean delStudent(Student student){
         return false;
     }
 
