@@ -74,5 +74,25 @@ public class MyArrayList {
         return false;
     }
 
-    //
+    public void set(int index, Object object){
+        if (index < 0 || index > this.array.length) {
+        } else {
+           this.array[index] = object;
+        }
+    }
+
+    public void clear(){
+        array = new Object[DEF_SIZE];
+    }
+
+    public boolean contains(Object object) {
+        for (int i = 0; i < size(); i++) {
+            if (object.equals(get(i))) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
 }

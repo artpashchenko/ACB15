@@ -1,7 +1,5 @@
 package week222.MyArrayList;
 
-import java.util.ArrayList;
-
 /**
  * Created by IntelliJ IDEA.
  * User: Артем
@@ -24,6 +22,9 @@ public class TestMyArrayList {
         System.out.println(testList);
         System.out.println(testList.get(2));
 
-        ArrayList qq = new ArrayList();
+        testList.set(3,"wertu");
+        System.out.println(testList.get(3));
+
+        System.out.println(testList.toString());
     }
 }
